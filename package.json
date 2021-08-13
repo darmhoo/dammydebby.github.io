@@ -1,0 +1,22 @@
+{
+  "name": "dammydebby.github.io",
+  "version": "1.0.0",
+  "description": "extremum tee",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dammydebby/dammydebby.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dammydebby/dammydebby.github.io/issues"
+  },
+  "homepage": "https://github.com/dammydebby/dammydebby.github.io#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
