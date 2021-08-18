@@ -13,12 +13,43 @@ header, */
 	height: 60vh;
 }
 
+.mobileCar{
+	display:none;
+}
+
+.desktopCar{
+	height: 100%;
+}
+
+.arrow-left{
+	display: none;
+}
+
 @media (max-width: 740px) {
 	html,
 	body,
 	header,
+	.mobileCar{
+		display: block;
+		height:100%;
+	}
+	.desktopCar{
+		display: none;
+	}
 	.carousel {
-		height: 100vh;
+		height: 100vh;		
+	}
+	.mobileLink{
+		color: black !important;
+		font-family: Barlow !important;
+		font-style: bold !important;
+		font-size: 1.3em !important;
+	}
+	
+	.mobileActiveLink{
+		color: #f0112b !important;
+		font-weight: bold !important;
+		font-size: 1.3em !important;
 	}
 }
 
@@ -40,6 +71,7 @@ header, */
 body,
 html {
 	height: 100%;
+	overflow-x: hidden;
 }
 @media (max-width: 740px) {
 	.full-page-intro {
@@ -47,7 +79,7 @@ html {
 	}
 }
 .carousel {
-	height: 100%;
+	height: 100%;	
 }
 .carousel .carousel-inner,
 .carousel .carousel-inner .active,
@@ -56,7 +88,7 @@ html {
 }
 @media (max-width: 776px) {
 	.carousel {
-		height: 100%;
+		height: 100%;		
 	}
 }
 .navbar {
@@ -68,7 +100,7 @@ html {
 }
 @media only screen and (max-width: 768px) {
 	.navbar {
-		background-color: #1c2331;
+		background-color: white;
 	}
 }
 
@@ -77,14 +109,15 @@ html {
 }
 
 .btn-outline-white {
-	background-color: red !important;
+	background-color: #f0112b !important;
 	border: none !important;
 	border-radius: 5em !important;
 }
 
-/* .mobileCar{
-    display:none;
-} */
+
+.mobileNav{
+    background-color: #f0112b;
+}
 
 .leftSide {
 	float: left;
@@ -113,13 +146,14 @@ html {
 	padding: 35px 0 0 23px;
 }
 
+
 .myLinks li {
 	display: inline;
 	list-style-type: none;
 }
 
 .myLinks .active {
-	color: red;
+	color: #f0112b;
 	font-weight: bold;
 }
 
@@ -137,7 +171,7 @@ html {
 }
 
 .myIndicators li {
-	background-color: red !important;
+	background-color: #f0112b !important;
 	border-radius: initial !important;
 	width: 5% !important;
 	position: relative;
@@ -177,6 +211,23 @@ html {
 	color: #000000cc;
 }
 
+@media (min-width: 300px) and (max-width: 540px) {
+    .bestCars{
+        font-size: 30px;
+        line-height: initial;
+        text-align: center;
+    }
+
+    .findNew{
+        color: white;
+        text-align: center;
+        font-size: 16px;
+        line-height: initial;
+        font-weight: 600;
+		padding-bottom: 20px;
+    }
+}
+
 .products {
 	padding: 24px 48px;
 	color: white;
@@ -187,6 +238,15 @@ html {
 	border: 1px solid #f0112b;
 	font-size: 1em;
 	letter-spacing: 0.05em;
+}
+
+@media (min-width: 300px) and (max-width: 540px) {
+    .products{
+        font-size: 12px;
+        padding: 15px;
+        font-weight: 400 !important;
+        position: relative;
+    }
 }
 
 .border {
@@ -211,7 +271,8 @@ html {
 
 @media (min-width: 300px) and (max-width: 540px) {
 	.serviceH {
-		padding: 50px 0px;
+		padding: 40px 0 0 0;
+		font-size: 24px;
 	}
 }
 
@@ -362,7 +423,8 @@ html {
 
 @media (min-width: 300px) and (max-width: 540px) {
 	.saleH {
-		padding: 50px 0px;
+		padding: 40px 0;
+		font-size:24px;
 	}
 }
 
