@@ -19,89 +19,211 @@
 </head>
 
 <body> 
-<!--Desktop Carousel Wrapper-->
-<div id="carousel-example-1z" class="carousel slide carousel-fade desktopCar" data-ride="carousel">
 
-  <!--Indicators-->
-  <ol class="carousel-indicators myIndicators">
-    <li data-mdb-target="#introCarousel" data-mdb-slide-to="0" class="active"></li>
-    <li data-mdb-target="#introCarousel" data-mdb-slide-to="1"></li>
-  </ol>
-  <!--/.Indicators-->
+<!--Mobile Carousel Wrapper-->
+<div class="mobileCar">
 
-  <!--Slides-->
-  <div class="carousel-inner" role="listbox">
-
-    <!--First slide-->
-    <div class="carousel-item active">
-       <!-- Content -->
+  <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+      <div class="container">
+  
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png">
+        </a>
+  
+        <!-- Collapse -->
+        <button class="navbar-toggler mobileNav" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  
+          <!-- Left -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link mobileActiveLink" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobileLink" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobileLink" href="#">Browse Cars</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobileLink" href="#">Inquiry</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobileLink" href="#">News & Update</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobileLink" href="#">Contact Us</a>
+            </li>
+          </ul>       
       
-        <div class="leftSide">
-          <div class="logo">
-            <img src="img/logo.png"/>
-          </div>      
-          <div class="text">
-            <h1 class="mb-4 bestCars">
-              Get The Best Cars At Affordable Prices
-            </h1>         
-            <p class="findNew">
-              Find new, certified or used car dealers by make, model, credit, or city on Extremum-Tee
-            </p>   
-            <a><button class="products">EXPLORE PRODUCTS</button></a>
-          </div>
-        </div>                
-        <div class="rightSide">
-               <!-- <img src="img/MaskGroup.png"/>  -->
-          <ul class="myLinks">
-            <li><a href="#" class='active'><strong>HOME</strong></a></li>
-            <li><a href="#"><strong>ABOUT US</strong></a></li>
-            <li><a href="#"><strong>BROWSE CARS</strong></a></li>
-            <li><a href="#"><strong>INQUIRY</strong></a></li> 
-            <li><a href="#"><strong>NEWS & UPDATES</strong></a></li> 
-            <li><a href="#"><strong>CONTACT US</strong></a></li>                 
-          </ul>                 
         </div>
-      <!-- Content -->
+  
+      </div>
+    </nav>
+    <!-- Navbar -->
+  
+  
+  <!--Carousel Wrapper-->
+  <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+   <!--  <ol class="carousel-indicators">
+      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-2" data-slide-to="1"></li>
+    </ol> -->
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="view">
+          <img style="height:100%" class="d-block w-100" src="img/mg.png" alt="First slide">
+          <div class="mask rgba-black-strong"></div>
+        </div>
+        <div style="top:30%" class="carousel-caption">
+          <h3 class="h3-responsive bestCars">
+            Get The Best Cars At Affordable Prices
+          </h3>
+          <p class="findNew">
+            Find new, certified or used car dealers by make, model, credit, or city on Extremum-Tee
+          </p>
+          <p class="text-center">
+            <a><button class="products">EXPLORE PRODUCTS</button></a>
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img style="height:100%" class="d-block w-100" src="img/mg2.png"
+            alt="Second slide">
+          <div class="mask rgba-black-strong"></div>
+        </div>
+        <div style="top:30%" class="carousel-caption">
+          <h3 class="h3-responsive bestCars">
+            Get The Best Cars At Affordable Prices
+          </h3>
+          <p class="findNew">
+            Find new, certified or used car dealers by make, model, credit, or city on Extremum-Tee
+          </p>
+          <p class="text-center">
+            <a><button class="products">EXPLORE PRODUCTS</button></a>
+          </p>
+        </div>
+      </div>   
     </div>
-    <!--/First slide-->  
-    
-    <!--Second slide-->
-    <div class="carousel-item">
-      <!-- Content -->
-     
-       <div class="leftSide">
-         <div class="logo">
-           <img src="img/logo.png"/>
-         </div>      
-         <div class="text">
-           <h1 class="mb-4 bestCars">
-             Get The Best Cars At Affordable Prices
-           </h1>         
-           <p class="findNew">
-             Find new, certified or used car dealers by make, model, credit, or city on Extremum-Tee
-           </p>   
-           <a><button class="products">EXPLORE PRODUCTS</button></a>
-         </div>
-       </div>                
-       <div class="secondRightSide">
-         <ul class="myLinks">
-           <li><a href="#" class='active'><strong>HOME</strong></a></li>
-           <li><a href="#"><strong>ABOUT US</strong></a></li>
-           <li><a href="#"><strong>BROWSE CARS</strong></a></li>
-           <li><a href="#"><strong>INQUIRY</strong></a></li> 
-           <li><a href="#"><strong>NEWS & UPDATES</strong></a></li> 
-           <li><a href="#"><strong>CONTACT US</strong></a></li>                 
-         </ul>                 
-       </div>
-     <!-- Content -->
-   </div>
-    <!--/Second slide-->    
-
+    <!--/.Slides-->
+    <!--Controls-->
+    <!-- <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a> -->
+    <!--/.Controls-->
   </div>
-  <!--/.Slides--> 
+  <!--/.Carousel Wrapper-->
+  
+  </div>
+  
+<!--/.Mobile Carousel Wrapper-->
 
+ <!--Desktop Carousel Wrapper-->
+ <div class="desktopCar"> 
+   
+    <div id="carousel-example-1z" class="carousel slide carousel-fade desktopCar" data-ride="carousel">
+
+      <!--Indicators-->
+      <ol class="carousel-indicators myIndicators">
+        <li data-mdb-target="#introCarousel" data-mdb-slide-to="0" class="active"></li>
+        <li data-mdb-target="#introCarousel" data-mdb-slide-to="1"></li>
+      </ol>
+      <!--/.Indicators-->
+
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+
+        <!--First slide-->
+        <div class="carousel-item active">
+          <!-- Content -->
+          
+            <div class="leftSide">
+              <div class="logo">
+                <img src="img/logo.png"/>
+              </div>      
+              <div class="text">
+                <h1 class="mb-4 bestCars">
+                  Get The Best Cars At Affordable Prices
+                </h1>         
+                <p class="findNew">
+                  Find new, certified or used car dealers by make, model, credit, or city on Extremum-Tee
+                </p>   
+                <a><button class="products">EXPLORE PRODUCTS</button></a>
+              </div>
+            </div>                
+            <div class="rightSide">
+                  <!-- <img src="img/MaskGroup.png"/>  -->
+              <ul class="myLinks">
+                <li><a href="#" class='active'><strong>HOME</strong></a></li>
+                <li><a href="#"><strong>ABOUT US</strong></a></li>
+                <li><a href="#"><strong>BROWSE CARS</strong></a></li>
+                <li><a href="#"><strong>INQUIRY</strong></a></li> 
+                <li><a href="#"><strong>NEWS & UPDATES</strong></a></li> 
+                <li><a href="#"><strong>CONTACT US</strong></a></li>                 
+              </ul>                 
+            </div>
+          <!-- Content -->
+        </div>
+        <!--/First slide-->  
+        
+        <!--Second slide-->
+        <div class="carousel-item">
+          <!-- Content -->
+        
+          <div class="leftSide">
+            <div class="logo">
+              <img src="img/logo.png"/>
+            </div>      
+            <div class="text">
+              <h1 class="mb-4 bestCars">
+                Get The Best Cars At Affordable Prices
+              </h1>         
+              <p class="findNew">
+                Find new, certified or used car dealers by make, model, credit, or city on Extremum-Tee
+              </p>   
+              <a><button class="products">EXPLORE PRODUCTS</button></a>
+            </div>
+          </div>                
+          <div class="secondRightSide">
+            <ul class="myLinks">
+              <li><a href="#" class='active'><strong>HOME</strong></a></li>
+              <li><a href="#"><strong>ABOUT US</strong></a></li>
+              <li><a href="#"><strong>BROWSE CARS</strong></a></li>
+              <li><a href="#"><strong>INQUIRY</strong></a></li> 
+              <li><a href="#"><strong>NEWS & UPDATES</strong></a></li> 
+              <li><a href="#"><strong>CONTACT US</strong></a></li>                 
+            </ul>                 
+          </div>
+        <!-- Content -->
+      </div>
+        <!--/Second slide-->    
+
+      </div>
+      <!--/.Slides--> 
+
+    </div>
 </div>
 <!--/.Desktop Carousel Wrapper-->  
+
 
 <div class="border"></div>
 
