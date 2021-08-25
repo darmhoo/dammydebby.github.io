@@ -4,9 +4,8 @@
   "description": "extremum tee",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-postbuild": "npm install --only=dev && npm install && npm run build",
-    "start": "echo \"Starting\""
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "repository": {
     "type": "git",
