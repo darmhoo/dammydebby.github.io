@@ -662,3 +662,139 @@ html {
 .fLinks {
 	color: white;
 }
+
+/* about  us unique page css */
+
+
+.outerWrap {
+    position: relative;
+    z-index: 0;
+    background-color: transparent;
+    height: 100vh;
+    width: 100%;
+}
+
+.layer1 {
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+    height: 100%;
+    width: 720px; 
+    background-image: url('../img/left.png');
+    background-position: center;
+    background-size: cover; 
+}
+
+.layer2 {
+    position: absolute;
+    z-index: 1;
+    background-color: #FC0;
+    height: 100%;
+    width: 1000px;
+    left: 300px;
+    background-image: url('../img/aboutImg.jpg');
+    background-position: center;
+    background-size: cover; 
+}
+
+.aboutLogo{
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+.aboutNav{
+    background-color: white;
+    padding-left:400px;
+}
+
+.aboutNavUl{
+    list-style-type: none;
+    display: flex;
+    padding: 50px 0;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.aboutHome{
+    color: black;
+    padding-right:20px; 
+}
+
+.aboutActive{
+    color: #F0112B;
+    padding-right:10px;
+}
+
+.aboutLink{
+    color: black;
+    padding: 0 15px;
+}    
+
+.aboutH{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #F0112B;
+    padding-top: 230px;
+    padding-left: 80px;
+}
+
+.aboutP{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    color: #000000;
+    padding-left: 80px;
+}
+
+.aboutVector{
+    padding-left: 900px;
+}
+
+.missionDiv{
+    padding: 80px;
+    background: #FEF8F9;
+}
+
+.missionH{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #F0112B;
+    line-height: 36px;
+}
+
+.visionH{
+    padding-top:20px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #F0112B;
+    line-height: 36px;
+}
+
+.missionP{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.missionP{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    color: #000000;
+}
