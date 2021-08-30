@@ -585,7 +585,7 @@ html {
 
 .move {
 	width:70%;	
-	margin-left: 14%;
+	margin-left: 15%;
 	position: absolute;
 	bottom: 200px;
 }
@@ -686,6 +686,7 @@ html {
 	position: absolute;
 	bottom: 0;	
 	width:100%;
+	margin-bottom: 2%;
 }
 
 .copyright{
@@ -694,8 +695,16 @@ html {
 }
 
 .copyright p{
-	padding-top: 20%;
+	padding-top: 13%;
 	padding-left: 5%;
+	padding-bottom: 2%;
+	font-family: Barlow;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.04em;
+	color: rgba(255, 255, 255, 0.8);
 }
 
 .footerCar{	
@@ -706,13 +715,16 @@ html {
 }
 
 .footerCar img{
-	padding-top: 3%;
 	width:90%;
 	position: absolute;
 	right: 0;
 	object-fit: cover;
-   opacity: 0.4;
+   	opacity: 0.4;
 	
+}
+
+a:hover {
+	color: #ffffff;
 }
 
 
@@ -825,12 +837,19 @@ html {
     line-height: 36px;
 }
 
+.missionImg{
+	background-image: url(../img/aboutBg.png);
+	background-position: 90px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
 .visionH{
     padding-top:20px;
     font-family: Barlow;
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
     color: #F0112B;
     line-height: 36px;
 }
@@ -839,16 +858,7 @@ html {
     font-family: Barlow;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 36px;
-    color: #000000;
-}
-
-.missionP{
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 36px;
     color: #000000;
 }
