@@ -612,9 +612,12 @@ html {
 	font-size: 14px;
 	line-height: 17px;
 	letter-spacing: 0.04em;
-	color: #ffffff;
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+.makeEquiry p a {
+	color: #ffffff;
 }
 
 .empty {
@@ -802,7 +805,7 @@ html {
 
 .inquiryActive{
 	color: #F0112B;
-	padding: 0 10px
+	padding: 0 5px
 }
 
 .aboutH{
@@ -920,23 +923,26 @@ html {
 	padding-bottom: 30px;
 }
 
-.makeIquiry {
+.makeInquiry {
 	background-color: #f0112b;
 	border-radius: 64px;
 	margin-right: 60%;
 	margin-bottom: 20%;
 }
 
-.makeIquiry p {
+.makeInquiry p {
 	font-family: Barlow;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 17px;
-	letter-spacing: 0.04em;
-	color: #ffffff;
+	letter-spacing: 0.04em;	
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+.makeInquiry p a {
+	color: #ffffff;
 }
 
 .message{
@@ -954,4 +960,151 @@ html {
 
 .inquiryImg{
 	padding-left: 20px;
+}
+
+
+/* news and updates unique page css */
+
+.newsText{
+	font-family: Barlow;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 34px;
+	text-align: center;
+	color: #000000;
+}
+
+.notification{
+	margin-top: 5%;
+	margin-bottom: 35%;
+}
+
+.newsImg{
+	position: relative;
+    top: 0;
+    left: 0;	
+}
+
+.relativeImg{
+	position: relative;
+    top: 0;
+    left: 0;
+}
+
+.absoluteImg{
+	position: absolute;
+    top: 40px;
+    left: 573px;
+}
+
+.backToHomepage {
+	background-color: #f0112b;
+	border-radius: 64px;
+	margin: 0 40%;
+}
+
+.backToHomepage p {
+	font-family: Barlow;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 0.04em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.backToHomepage p a {
+	color: #ffffff;
+}
+
+
+
+/* contact unique page css */
+
+
+.contactLayer1 {
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+	height: 100%;
+	width: 700px;
+    /* background-image: url('../img/left.png');
+    background-position: center;
+    background-size: cover;  */
+}
+
+.contactLayer2 {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+	background-color: #ffffff; 
+}
+
+
+.contactNav{
+	background-color: white;
+	padding-left:700px;
+}
+
+.contactLeft{
+	position: relative;
+	height:100%;
+}
+
+.contact1{
+	position:absolute;	
+	width:100%;
+	z-index: 2;
+	height:100%;
+	right: 45px;
+}
+
+.contact2{
+	position:absolute;
+	width:100%;
+	z-index: 1;
+	height:100%
+}
+
+.contactVector{
+    padding-left: 93%;
+	position: absolute;
+	z-index: 1;
+}
+
+.contact3{
+	position:absolute;
+	z-index: 3;
+	top:20px;
+	left:20px;
+}
+
+.contactText{
+	position: absolute;
+	z-index: 2;
+	margin-top:8%;
+	
+}
+
+.contactH{
+	font-family: Barlow;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 64px;
+	letter-spacing: 0.02em;
+	color: #F0112B;
+	padding-left:750px;
+}
+
+.contactP{
+	font-family: Barlow;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 36px;
+	color: #000000;
+	padding-left:750px;
 }
