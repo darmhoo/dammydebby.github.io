@@ -17,11 +17,19 @@ header, */
 	display:none;
 }
 
+.forFooter{
+	display: none;
+}
+
 .desktopCar{
 	height: 100%;
 }
 
 .arrow-left{
+	display: none;
+}
+
+.mobileFooter{
 	display: none;
 }
 
@@ -50,6 +58,29 @@ header, */
 		color: #f0112b !important;
 		font-weight: bold !important;
 		font-size: 1.3em !important;
+	}
+	.forFooter{
+		display: block;
+	}
+
+	.myFooter{
+		display: none;
+	}
+
+	.empty{
+		display: none;
+	}
+
+	.mobileFooter{
+		display: block;
+	}
+
+	.missionImg{
+		display: none;
+	}
+
+	.inquiryImg{
+		display: none;
 	}
 }
 
@@ -222,7 +253,7 @@ html {
         color: white;
         text-align: center;
         font-size: 16px;
-        line-height: initial;
+        /* line-height: initial; */
         font-weight: 600;
 		padding-bottom: 20px;
     }
@@ -605,6 +636,12 @@ html {
 	margin-bottom: 20%;
 }
 
+@media (min-width: 300px) and (max-width: 540px) {
+    .makeEquiry{        
+		margin-right: 0;
+    }
+}
+
 .makeEquiry p {
 	font-family: Barlow;
 	font-style: normal;
@@ -730,9 +767,28 @@ html {
 	color: #ffffff;
 }
 
+.forFooter{
+	background-color: #e5e5e557;
+}
+
+.footerText{
+	margin:5%;
+}
+
+.mobileFooter{
+	background-color: #F0112B;
+	padding: 3% 0;
+}
 
 
 /* about  us unique page css */
+
+
+.mobileAbout{
+	color: #F0112B;
+	font-weight: 600;
+    font-size: 46px;
+}
 
 
 .outerWrap {
@@ -840,6 +896,13 @@ html {
     background: #FEF8F9;
 }
 
+@media (min-width: 300px) and (max-width: 540px) {
+	.missionDiv {
+		padding: 2%;
+		text-align: center;
+	}
+}
+
 .missionH{
     font-family: Barlow;
     font-style: normal;
@@ -875,6 +938,12 @@ html {
     color: #000000;
 }
 
+@media (min-width: 300px) and (max-width: 540px) {
+	.missionP {
+		font-size: 18px;
+	}
+}
+
 
 /* inquiry unique page css */
 
@@ -897,6 +966,13 @@ html {
 	margin-right:60px;
 	margin-bottom: 300px;
 	border: 3px solid black;
+}
+
+@media (min-width: 300px) and (max-width: 540px) {
+	.inquiryDiv{
+		margin:10px;
+		border: 2px solid black;
+	}
 }
 
 .inquiryH{
@@ -930,6 +1006,13 @@ html {
 	margin-bottom: 20%;
 }
 
+@media (min-width: 300px) and (max-width: 540px) {
+	.makeInquiry {
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+}
+
 .makeInquiry p {
 	font-family: Barlow;
 	font-style: normal;
@@ -956,6 +1039,13 @@ html {
 
 .myInquiry{
 	padding: 50px;
+}
+
+@media (min-width: 300px) and (max-width: 540px) {
+	.myInquiry{
+		padding: 10px;
+		text-align: center;
+	}
 }
 
 .inquiryImg{
@@ -1107,4 +1197,12 @@ html {
 	line-height: 36px;
 	color: #000000;
 	padding-left:750px;
+}
+
+@media (min-width: 300px) and (max-width: 540px) {
+	.contactP{
+		padding-left: 0;
+		text-align: center;
+		color: white;
+	}
 }

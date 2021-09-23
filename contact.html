@@ -17,45 +17,126 @@
 </head>
 
 <body>
-  <div class="outerWrap">
-    <div class="contactLayer1">
-      <div class="contactLeft">
-        <img class="contact1" src="img/contactImg.png"/>
-        <img class="contact2" src="img/left.png"/>
-        <img class="contact3" src="img/logo2.png">        
-      </div>      
-    </div>
-    <div class="contactLayer2">
-      <div class="contactNav">
-        <ul class="aboutNavUl">
-          <li>
-            <a class="aboutHome" href="index.html">HOME</a> 
-          </li>
-          <li>
-            <a class="aboutLink" href="about.html">ABOUT US</a>
-          </li>
-          <li>
-            <a class="aboutLink" href="#">BROWSE CARS</a>
-          </li>
-          <li>
-            <a class="aboutLink" href="inquiry.html">INQUIRY</a>
-          </li>
-          <li>
-            <a class="aboutLink" href="news.html">NEWS AND UPDATE</a>
-          </li>
-          <li>
-            <a class="inquiryActive" href="contact.html">CONTACT US</a>
-          </li>
-        </ul>
-      </div>
-      <img class="contactVector" src="img/aboutVector.png"/>
-      <div class="contactText">
-        <h1 class="contactH">Get in touch with us.</h1>
-        <p class="contactP">+1 (832) 231-4658</p>        
-        <p class="contactP">+1 (832) 231-4658</p>
-        <p class="contactP">help@Extremum-Teeautos.com</p>
-      </div>
+
+  <!--Mobile Carousel Wrapper-->
+<div class="mobileCar">
+
+  <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+      <div class="container">
+  
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png">
+        </a>
+  
+        <!-- Collapse -->
+        <button class="navbar-toggler mobileNav" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  
+          <!-- Left -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link mobileActiveLink" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobileLink" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobileLink" href="#">Browse Cars</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobileLink" href="inquiry.html">Inquiry</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobileLink" href="news.html">News & Update</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobileLink" href="contact.html">Contact Us</a>
+            </li>
+          </ul>       
       
+        </div>
+  
+      </div>
+    </nav>
+    <!-- Navbar -->  
+  
+  <!--Carousel Wrapper-->
+  <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">   
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="view">
+          <img style="height:100%" class="d-block w-100" src="img/contactImg.png" alt="First slide">
+          <div class="mask rgba-black-strong"></div>
+        </div>
+        <div style="top:30%" class="carousel-caption">
+          <h1 class="h3-responsive bestCars">
+            Get in touch with us.
+          </h1>
+          <div>
+            <p class="contactP">+1 (832) 231-4658</p>        
+            <p class="contactP">+1 (832) 231-4658</p>
+            <p class="contactP">help@Extremum-Teeautos.com</p>
+          </div>
+        </div>
+      </div>       
+    </div>   
+  </div>
+  <!--/.Carousel Wrapper-->  
+</div>
+  
+<!--/.Mobile Carousel Wrapper-->
+
+
+  <div class="desktopCar">
+    <div class="outerWrap">
+      <div class="contactLayer1">
+        <div class="contactLeft">
+          <img class="contact1" src="img/contactImg.png"/>
+          <img class="contact2" src="img/left.png"/>
+          <img class="contact3" src="img/logo2.png">        
+        </div>      
+      </div>
+      <div class="contactLayer2">
+        <div class="contactNav">
+          <ul class="aboutNavUl">
+            <li>
+              <a class="aboutHome" href="index.html">HOME</a> 
+            </li>
+            <li>
+              <a class="aboutLink" href="about.html">ABOUT US</a>
+            </li>
+            <li>
+              <a class="aboutLink" href="#">BROWSE CARS</a>
+            </li>
+            <li>
+              <a class="aboutLink" href="inquiry.html">INQUIRY</a>
+            </li>
+            <li>
+              <a class="aboutLink" href="news.html">NEWS AND UPDATE</a>
+            </li>
+            <li>
+              <a class="inquiryActive" href="contact.html">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+        <img class="contactVector" src="img/aboutVector.png"/>
+        <div class="contactText">
+          <h1 class="contactH">Get in touch with us.</h1>
+          <p class="contactP">+1 (832) 231-4658</p>        
+          <p class="contactP">+1 (832) 231-4658</p>
+          <p class="contactP">help@Extremum-Teeautos.com</p>
+        </div>
+        
+      </div>
     </div>
   </div>
 
@@ -90,6 +171,43 @@
       </div>
     </div>
   </div>
+
+  <div class="forFooter">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card footerText">
+          <div class="card-body">
+            <p class="text-center fLeftP">
+              Do you have a  specific car in mind and can’t find it on the website? Not to worry, we’ve got you. You can make inquiries directly about the car.
+            </p>
+            <div class="makeEquiry text-center">
+              <p><a href="#">MAKE INQUIRY</a></p>
+            </div>          
+          </div>
+        </div>
+      </div>    
+    </div>
+  </div>
+  
+  
+  <div class="row mobileFooter">
+    <div class="col-md-12 text-center">
+      <p><a class="fLinks" href="index.html">HOME</a></p>
+        <p><a class="fLinks" href="about.html">ABOUT US</a></p>
+        <p><a class="fLinks" href="#">BROWSE CARS</a></p>
+        <p><a class="fLinks" href ="inquiry.html">INQUIRY</a></p>
+        <p><a class="fLinks" href="news.html">NEWS & UPDATE</a></p>
+        <p><a class="fLinks" href="contact.html">CONTACT US</a></p>
+      <p class="follow">Follow Us On Social Media</p>
+      <p class="link">
+        <a class="fLinks" href=""><i class="socials fab fa-facebook" aria-hidden="true"></i></a>
+        <a class="fLinks" href=""><i class="socials fab fa-twitter" aria-hidden="true"></i></a>
+        <a class="fLinks" href=""><i class="socials fab fa-instagram" aria-hidden="true"></i></a>
+        <a class="fLinks" href=""><i class="socials fab fa-linkedin" aria-hidden="true"></i></a>
+      </p>
+    </div>    
+  </div> 
+
   <div class="myFooter">
     <div class="move"> 
       <div class="moved shadow">
